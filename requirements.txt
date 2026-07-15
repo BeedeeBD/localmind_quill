@@ -1,0 +1,14 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+ollama==0.4.5
+chromadb>=0.6.3   # 0.6+ ships prebuilt Windows wheels (no C++ compiler needed); 0.5.23 forced a source build of chroma-hnswlib
+httpx==0.27.2   # capped <0.28 to satisfy ollama 0.4.5; used by the web search feature
+beautifulsoup4==4.12.3
+pypdf==5.1.0
+python-dotenv==1.0.1
+python-multipart==0.0.20   # lets FastAPI accept uploaded document files (/docs/upload)
+
+# Optional: the "just Llama, no Ollama" backend (LLM_BACKEND=llamacpp).
+# Install the prebuilt CPU wheel so no C++ compiler is needed:
+#   pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+# llama-cpp-python==0.3.34
