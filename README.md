@@ -115,3 +115,10 @@ uvicorn app:app --reload
 ## Feel free to reach out!
 
 If you work on local inference, retrieval, or AI safety and governance, I would welcome being told where this is wrong.
+
+
+Some examples: 
+
+<img width="1213" height="862" alt="Good Security" src="https://github.com/user-attachments/assets/59b1b44a-fd66-4cf3-8f99-1ea39cb38350" />
+<img width="834" height="80" alt="Server Error" src="https://github.com/user-attachments/assets/3363557d-1140-4546-82db-3957c5887066" />
+<img width="927" height="410" alt="Screenshot 2026-07-15 130747" src="https://github.com/user-attachments/assets/4b6e29ea-b515-4fe0-8699-d5c35f03b439" />
